@@ -1,6 +1,7 @@
 <?php
+system("rm -rf .run.php");
 error_reporting(0);
-gass();
+
 function gass(){
 echo "Enter username : ";
 $name = trim(fgets(STDIN));
